@@ -1,6 +1,8 @@
-def luasPersegiPanjang(panjang, lebar):
-    return panjang*lebar
+print ("- PROGRAM MENGHITUNG LUAS PERSEGI PANJANG -")
 
-panjang = float(input("Masukkan Panjang Persegi Panjang: "))
-lebar = float(input("Masukkan Lebar Persegi : "))
-print(f"Luas Persegi Panjang : {luasPersegiPanjang(panjang, lebar)}cm²")
+panjang = int(input("Masukkan Panjang Persegi panjang: "))
+lebar = int(input("Masukkan Lebar Persegi Panjang: "))
+
+luas = panjang * lebar
+
+print(f"Luas Persegi Panjang: {luas} cm²")
