@@ -1,5 +1,8 @@
-def luas_lingkaran(jari_jari):
-    return 3.14 * jari_jari ** 2
+import math
+print ("- PROGRAM MENGHITUNG LUAS LINGKARAN -")
 
-jari_jari = float(input("Masukkan jari-jari Lingkaran: "))
-print(f"Luas Lingkaran: {luas_lingkaran(jari_jari)}cm²")
+r = float(input("Masukkan jari - jari Lingkaran: "))
+
+luas = math.pi * r** 2
+
+print(f"Luas Lingkaran: {luas} cm²")
