@@ -1,6 +1,8 @@
-def luas_segitiga(alas, tinggi):
-    return 0.5 * alas * tinggi
+print("- PROGRAM MENGHTIUNG LUAS SEGITIGA -")
 
-alas = float(input("Masukkan alas Segitiga: "))
-tinggi = float(input("Masukkan tinggi Segitiga: "))
-print(f"Luas Segitiga: {luas_segitiga(alas, tinggi)}cm²")
+alas = float (input("Masukkan alas Segitiga: "))
+tinggi = float (input("Masukkan Tinggi Segitiga: "))
+
+luas = 0.5 * alas * tinggi
+
+print(f"Luas Segitiiga: {luas} cm²")
