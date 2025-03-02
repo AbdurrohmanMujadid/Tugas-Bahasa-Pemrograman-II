@@ -1,6 +1,12 @@
-def volume_tabung(jari_jari, tinggi):
-    return 3.14 * jari_jari ** 2 * tinggi
+import math
+print ("- PROGRAM MENGHITUNG VOLUME TABUNG -")
 
-jari_jari = float(input("Masukkan jari-jari Tabung: "))
-tinggi = float(input("Masukkan tinggi Tabung: "))
-print(f"Volume Tabung: {volume_tabung(jari_jari, tinggi)}cm³")
+r = float(input("Masukkan jari jari Tabung: "))
+tinggi = float(input("Masukkan Tinggi Tabung: "))
+
+volume = math.pi * r** 2 * tinggi
+
+print(f"Volume Tabung: {volume} cm³")
+
+
+
